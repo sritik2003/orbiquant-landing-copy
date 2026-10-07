@@ -1,6 +1,6 @@
 import React from 'react';
 // Assuming you saved the generated image as hero-chart.png in src/assets/
-import {heroChartBg} from '../assets/heroBG.png'; 
+import heroChartBg from '../assets/heroBG.png'; 
 
 const Hero = () => {
   return (
