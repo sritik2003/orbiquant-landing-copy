@@ -42,7 +42,7 @@ import Strategies from './components/Strategies';
 import WhyOrbiquant from './components/WhyOrbiquant';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
-import Login from './components/Login';
+import Login from './components/login';
 import BrokerWorkflow from './components/brokersection';
 
 function Home() {
