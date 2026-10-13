@@ -1,62 +1,58 @@
 export const pricingData = [
   {
-    title: "Single strategy",
-    description: "One proven model, all the essentials.",
-    price: "₹1,499",
-    period: "/ month",
-    minCapital: "Min. Capital: ₹25,000",
-    isPopular: false,
+    title: "Free Trial",
+    description: "Get familiar with Orbiquant, risk-free.",
+    price: "₹0",
+    period: "/ 7 days",
+    minCapital: "Paper trading only",
     features: [
-      "1 live strategy",
-      "Unlimited paper trading",
-      "Real-time alerts",
-      "Standard support"
-    ]
+      "7-day access after signup",
+      "Paper trading simulation",
+      "No real broker orders"
+    ],
+    isPopular: false,
+    popularBadgeText: ""
   },
   {
-    title: "Starter plus",
-    description: "More power, more flexibility.",
-    price: "₹2,499",
+    title: "Basic",
+    description: "Focused control for two strategies.",
+    price: "₹1,000",
     period: "/ month",
-    minCapital: "Min. Capital: ₹1.20 - ₹1.50 Lakh",
-    isPopular: false,
+    minCapital: "Up to ₹50,000 capital",
     features: [
-      "2 live strategies",
-      "Unlimited paper trading",
-      "Real-time alerts",
-      "Standard support",
-      "Basic analytics"
-    ]
+      "Up to 2 strategies per broker",
+      "₹50,000 capital per strategy",
+      "Separate broker subscription"
+    ],
+    isPopular: false,
+    popularBadgeText: ""
   },
   {
-    title: "Pro strategy",
-    description: "Advanced strategies for the serious trader.",
-    price: "₹2,999",
+    title: "Pro",
+    description: "Maximum flexibility across four strategies.",
+    price: "₹1,500",
     period: "/ month",
-    minCapital: "Min. Capital: ₹1 Lakh",
-    isPopular: false,
+    minCapital: "Up to ₹50,000 capital",
     features: [
-      "3 live strategies",
-      "Unlimited paper trading",
-      "Real-time alerts",
-      "Priority support",
-      "Custom allocation"
-    ]
-  },
-  {
-    title: "All-access",
-    description: "Your complete quantitative toolkit.",
-    price: "₹3,999",
-    period: "/ month",
-    minCapital: "Min. Capital: ₹1.50 - ₹1.70 Lakh",
+      "Up to 4 strategies per broker",
+      "₹50,000 capital per strategy",
+      "Independent broker accounts"
+    ],
     isPopular: true,
-    popularBadgeText: "MOST POPULAR",
+    popularBadgeText: "MOST FLEXIBLE"
+  },
+  {
+    title: "All Access",
+    description: "Complete unlock for all strategies in one plan.",
+    price: "₹2,500",
+    period: "/ month",
+    minCapital: "Unlimited capital scaling",
     features: [
-      "Every live strategy",
-      "Unlimited paper trading",
-      "Priority order routing",
-      "Custom allocation",
-      "Premium support"
-    ]
+      "Access to all strategies in one plan",
+      "Unlimited broker account connections",
+      "Priority execution & support"
+    ],
+    isPopular: true,
+    popularBadgeText: "ALL-IN-ONE"
   }
 ];

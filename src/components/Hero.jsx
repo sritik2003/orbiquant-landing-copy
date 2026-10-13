@@ -1,6 +1,7 @@
-import React from 'react';
+// import React from 'react';
 // Assuming you saved the generated image as hero-chart.png in src/assets/
-import {heroChartBg} from '../assets/heroBG.png'; 
+import heroChartBg from '../assets/heroBG.png'; 
+
 
 const Hero = () => {
   return (
@@ -43,6 +44,7 @@ const Hero = () => {
       <div className="absolute bottom-4 left-0 right-0 text-center text-[10px] text-gray-500 z-10">
         Trading involves risk. Past performance is not indicative of future results.
       </div>
+      
     </section>
   );
 };

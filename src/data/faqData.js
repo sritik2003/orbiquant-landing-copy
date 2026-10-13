@@ -28,9 +28,5 @@ export const faqData = [
     id: 6,
     question: "Are you SEBI registered?",
     answer: "Orbiquant provides quantitative research software tools and execution infrastructure."
-  },{
-    id: 7,
-    question: "Are you ritik?",
-    answer: "Orbiquant provides quantitative research software tools and execution infrastructure."
   }
 ];
